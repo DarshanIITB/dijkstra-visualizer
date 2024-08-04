@@ -1,0 +1,57 @@
+.grid-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  /* grid-gap: 5px; */
+  background-color: #f1f1f1;
+  padding: 2.5px;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-width: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+.controls {
+  display: flex;
+  column-gap: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: #38803b;
+  color: white;
+}
